@@ -24,7 +24,8 @@ list_of_files = [
     "Dockerfile",
     "setup.py",
     "research/research.ipynb",
-    "templates/index.html"
+    "templates/index.html",
+    "app.py"
 ]
 
 for filepath in list_of_files:
