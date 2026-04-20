@@ -18,6 +18,4 @@ class DataValidationConfig:
 @dataclass
 class DataTransformationConfig:
     root_dir:Path
-    STATUS_FILE:Path
-    unzip_data_dir:Path
-    all_schema:dict
+    data_path:Path

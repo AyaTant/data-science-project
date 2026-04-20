@@ -50,8 +50,6 @@ class ConfigurationManager:
 
         data_transformation_config = DataTransformationConfig(
             root_dir=config.root_dir,
-            STATUS_FILE=config.STATUS_FILE,
-            unzip_data_dir=config.unzip_data_dir,
-            all_schema=config.all_schema
+            data_path = config.data_path
         )
         return data_transformation_config
